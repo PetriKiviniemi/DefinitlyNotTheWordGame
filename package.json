@@ -1,6 +1,6 @@
 {
   "name": "DefinitlyNotTheWordGame",
-  "homepage": "https://petrikiviniemi.github.io/DefinitlyNotTheWordGame"
+  "homepage": "https://petrikiviniemi.github.io/DefinitlyNotTheWordGame", 
   "version": "0.1.0",
   "private": true,
   "dependencies": {
