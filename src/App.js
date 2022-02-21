@@ -1,6 +1,5 @@
 import React from 'react'
 
-import logo from './logo.svg';
 import './App.css';
 import { wordList } from './WordleWords.js'
 import { GameState } from './constants/gamestate'
