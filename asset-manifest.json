@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/DefinitlyNotTheWordGame/static/css/main.973dd2a6.css",
+    "main.js": "/DefinitlyNotTheWordGame/static/js/main.35b746dd.js",
+    "index.html": "/DefinitlyNotTheWordGame/index.html",
+    "main.973dd2a6.css.map": "/DefinitlyNotTheWordGame/static/css/main.973dd2a6.css.map",
+    "main.35b746dd.js.map": "/DefinitlyNotTheWordGame/static/js/main.35b746dd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.973dd2a6.css",
+    "static/js/main.35b746dd.js"
+  ]
+}
