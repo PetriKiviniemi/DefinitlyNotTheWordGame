@@ -10,18 +10,65 @@
 {
     display: flex;
     flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    min-width: 70%;
 }
 
 .app-input-fields-wrapper
 {
     display: grid;
     height: 100%;
-    width: 100%;
+    width: 40%;
+    margin-left: 36%;
     grid-template-rows: repeat(6, 15.7%);
     grid-template-columns: repeat(5, 19%);
     grid-gap: 1%;
     padding: 10px;
     box-sizing: border-box;
+}
+
+.app-input-fields-info-container
+{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.app-input-fields-info-wrapper
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1px;
+    justify-content: left;
+    align-items: center;
+}
+
+.app-input-fields-info-color
+{
+    position: relative;
+    display: inline-box;
+    background: green;
+    min-width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-box;
+}
+
+.app-input-fields-info-color:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+.app-input-fields-info-text
+{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-left: 4px;
 }
 
 .app-input-field
@@ -107,14 +154,15 @@
 {
     display: flex;
     flex-grow: 1;
-    max-width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
 .app-keyboard-wrapper
 {
     display: grid;
-    max-height: 20vh;
-    width: 30vw;
+    width: 100%;
+    height: 100%;
     grid-template-rows: repeat(3, 32%);
     grid-template-columns: repeat(10, 9%);
     grid-gap: 1%;
@@ -173,6 +221,8 @@
 
 .app-nav-bar-container
 {
+    display: flex;
+    flex-direction: row;
     min-height: 10vh;
     min-width: 100vw;
     justify-content: center;
@@ -186,4 +236,38 @@
     text-align: center;
     justify-content: center;
     align-items: center;
+}
+
+.app-nav-bar-btn-container
+{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-right: 50%;
+}
+
+.app-nav-bar-btn
+{
+    max-width: 40%;
+    max-height: 60%;
+    justify-content: center;
+    align-content: center;
+    background-color: white;
+    border: none;
+}
+
+.app-nav-bar-btn-img-active
+{
+    max-width: 100%;
+    max-height: 100%;
+    justify-content: center;
+    align-content: center;
+    border: 2px solid black;
+}
+
+.app-nav-bar-btn-img
+{
+    max-width: 100%;
+    max-height: 100%;
+    border: 1px solid lightgrey;
 }
