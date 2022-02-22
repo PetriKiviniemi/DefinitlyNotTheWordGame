@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/DefinitlyNotTheWordGame/static/css/main.973dd2a6.css",
-    "main.js": "/DefinitlyNotTheWordGame/static/js/main.35b746dd.js",
+    "main.css": "/DefinitlyNotTheWordGame/static/css/main.34da264f.css",
+    "main.js": "/DefinitlyNotTheWordGame/static/js/main.8f6efbd2.js",
     "index.html": "/DefinitlyNotTheWordGame/index.html",
-    "main.973dd2a6.css.map": "/DefinitlyNotTheWordGame/static/css/main.973dd2a6.css.map",
-    "main.35b746dd.js.map": "/DefinitlyNotTheWordGame/static/js/main.35b746dd.js.map"
+    "main.34da264f.css.map": "/DefinitlyNotTheWordGame/static/css/main.34da264f.css.map",
+    "main.8f6efbd2.js.map": "/DefinitlyNotTheWordGame/static/js/main.8f6efbd2.js.map"
   },
   "entrypoints": [
-    "static/css/main.973dd2a6.css",
-    "static/js/main.35b746dd.js"
+    "static/css/main.34da264f.css",
+    "static/js/main.8f6efbd2.js"
   ]
 }
